@@ -1,0 +1,249 @@
+/*recommended process for drop shadow*/
+.top
+{
+	background: url(../images/white-box-top.png);
+	height: 21px;
+	width: 898px;
+}
+
+.btm
+{
+	background: url(../images/white-box-bot.png);
+	height: 24px;
+	width: 898px;
+}
+
+.middle /*whiteBox-container*/
+{
+	background: url(../images/white-box-mid.png) repeat-y;
+	background-position: top left;
+	
+}
+/* end of recommends */
+
+#grey
+{
+	color: #777;
+}
+
+h2,h3,h4,p
+{
+	padding: 0;
+	margin: 0;
+}
+
+#landing h1
+{
+	font-weight: normal;
+	font-size: 48px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0;
+}
+
+#landing p
+{
+ 	margin: 0 0 15px; 
+ 	padding: 0;
+ 	line-height: 24px;
+ 	vertical-align: top;
+ 	width: 90%;
+}
+
+#landing .low p
+{
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: normal;
+}
+
+#landing table
+{
+	background: url('../images/table_bg.jpg') no-repeat;
+	width: 462px;
+	height: 226px;
+}
+
+#landing thead td
+{
+	font-family: 'GothamBold',Arial,Sans-serif;
+	color: #fff;
+}
+
+#landing td
+{
+	width: 211px;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.dottedLine, .solidLine
+{
+	background: #ebebeb url('../images/dot-border.png') repeat-x;
+	height: 2px;
+	width: 100%;
+	margin: 20px 0;	
+}
+
+.solidLine
+{
+	height: 1px;
+	background-image: none;
+}
+
+.panel
+{
+	width: 380px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.panel#right
+{
+	width: 460px;
+}
+
+.panel.high
+{
+	height: 380px;
+}
+
+.panel.low
+{
+	height: 135px;
+}	
+
+.panel iframe, .panel table
+{
+	
+	position: absolute;
+	top: 150px;
+}
+
+#cta-gmail
+{
+	margin: 15px 0 75px 95px;
+	float: left;
+}
+
+.green
+{
+	font-size: 12px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+.green.plus
+{
+	background: url('../images/plus.png') no-repeat;
+	padding: 4px 0 0 23px;
+	height: 14px;
+	display: block;
+}
+
+/****
+*****	Remind.html Layout styles	
+******************************************/
+fieldset
+{
+	margin-top: 20px;
+	width: 510px;
+}
+
+fieldset div
+{
+	display: inline-block;
+	width: 250px;
+	padding: 0; 
+	margin: 0;
+}
+
+fieldset input[type='text']
+{
+	width: 225px;
+	margin-bottom: 10px;
+}
+
+#prevHeader
+{
+	margin: 20px 0;
+}
+
+#preview
+{
+	width:495px;
+	height: 530px;
+	margin-bottom: 20px;
+	border: 3px solid #ddd;
+	background: url(../images/bg.jpg) repeat-x;
+}
+
+#preview p, #preview a
+{
+	font-size: 10px;
+}
+
+div#thead
+{
+	width: 435px;
+	margin-top: 15px;
+	height: 50px;
+	margin-left: 30px;
+	float: left;
+}
+
+#txt
+{
+	float: right;
+	text-align: right;
+}
+
+#tbody
+{
+	background: url(../images/preview-mid.jpg) no-repeat;
+	width: 405px;
+	height: 405px;
+	margin: 15px 0 0 30px;
+	padding: 15px;
+	float: left;
+}	
+
+#tbody h2
+{	
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	text-transform: none;
+}
+
+#tbody p
+{
+	margin-top: 10px;
+	line-height: 16px;
+	font-size: 11px;
+}
+
+#tbody .panel
+{
+	width: 190px;
+	padding-right: 10px;
+}
+
+#tbody .panel a
+{
+	margin-top: 15px;
+	display: block;
+}
+
+p#signature
+{
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+
+#preview .footer
+{
+	font-size: 9px;
+	color: #aaa;
+}
